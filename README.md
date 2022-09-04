@@ -16,3 +16,10 @@
 - Loop
 - Async
 - Error Handling
+
+## Requirements
+
+- Install Node.js version 16.15.0
+  - for guide [click here](https://learn.betich.me/articles/etc/how-to-setup-nodejs)
+- Install Visual Studio Code
+  - download [link](https://code.visualstudio.com/download)
