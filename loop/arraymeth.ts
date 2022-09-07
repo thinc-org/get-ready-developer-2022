@@ -21,3 +21,15 @@ const allEven = list.every((value, index, array) => {
   return value % 2 == 0;
 });
 console.log("allEven", allEven);
+
+console.log("filter: ");
+const evenList = list.filter((value, index, array) => {
+  return value % 2 == 0;
+});
+console.log(evenList);
+
+console.log("reduce: ");
+const sum = list.reduce((previousValue, currentValue, currentIndex, array) => {
+  return previousValue + currentValue;
+});
+console.log(sum);
